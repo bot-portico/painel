@@ -1,0 +1,27 @@
+.priority-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+    transition: transform 0.2s;
+  }
+  
+  .priority-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-header {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+  }
+  
+  .card-header h2 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .card-body p {
+    margin: 8px 0;
+  }
+  
